@@ -1,0 +1,15 @@
+.liked-events-container {
+    padding: 20px;
+}
+
+.liked-events-container h2 {
+    margin-bottom: 10px;
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* You can add more styling as needed for the EventCard component */

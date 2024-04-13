@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    background-color: white;
+    height:100%;
+}
+.input-group{
+    border-radius: 15px;
+    margin-left: 0px;
+}
+.eventbrite-logo {
+    color: red;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #d1e1f0;
+    border-radius: 10px;
+}
+
+.dropdown-menu {
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    color: #212529;
+    transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
